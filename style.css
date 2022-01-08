@@ -8,22 +8,17 @@ body {
 .header{
   display: flex;
   flex-flow: column;
-   
-  
-}
+  }
 
 .first {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  flex: 1 1 75px;
+  flex: 1 1 100px;
   align-items: flex-start;
   gap: 200px;
-    background-color:rgb(0, 20, 40);
-  
- 
-  
-}
+  background-color:#1f2937;
+ }
 
 .logo {
   display:flex;
@@ -31,68 +26,70 @@ body {
   align-self: flex-start;
   margin-top: 8px;
   color: white;
-  font-weight: bold;
-  
-}
+  font-weight: bolder;
+  font-size: 24px;
+  color: f9faf8;
+  }
 
 .links {
   display: flex;
   list-style: none;
   gap: 8px;
-  font-size: 10px;
-  color: white;
-   
-}
+  font-size: 18px;
+  color: #e5e7eb;
+  align-self: flex-start;
+  margin-top: 10px;
+  }
 
 .first-second{
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  flex: 1 1 200px;
-  background-color:rgb(0, 20, 40);
+  gap: 0px;
+  flex: 1 1 250px;
+  background-color:#1f2937;
   }
 
 .awesome {
-  font-size:35px;
+  
   display: flex;
   flex-flow: column;
   width:300px;
   margin-right: 0px;
-  margin-left:70px;
-  background-color:rgb(0, 20, 40);
+  margin-left:10px;
+  background-color:#1f2937;
   color: white;
-  
-
-  
-}
+ }
 
 .is-awesome {
-font-weight: bold;
-line-height: 32px;
+font-size:48px;
+font-weight: bolder;
+line-height: 40px;
 }
 
 .why-awesome{
-font-size: 15px;
+font-size: 18px;
+color: #e5e7eb;
 display: flex;
 flex-flow: wrap;
-background-color:rgb(0, 20, 40);
+background-color:#1f2937;
 color: white;
 color:lightgrey;
 }
 
 .first-second-img {
   display: flex;
-  flex: 0 1 400px;
-  height: 135px;
+  flex: 0 1 500px;
+  height: 170px;
   background-color:grey;
-  margin-right:69px;
+  margin-right:10px;
   
    }
 
 button {
   align-self: flex-start;
-background-color:rgb(0, 144, 255);
-color:whitesmoke;
+background-color:#3882f6;
+color:white;
 border: none;
 width:100px;
 font-size:12px;
@@ -113,10 +110,10 @@ outline-style:auto;
 }
 
 .random {
-  color:rgb(0, 20, 40);
+  color:#1f2937;
   margin-top: 32px;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight:bolder;
 }
 
 .boxes {
@@ -129,8 +126,7 @@ outline-style:auto;
   display: flex;
   flex-flow: column;
   gap: 6px;
- 
-}
+ }
 
 .box-img {
   border-width: 2px;
@@ -139,8 +135,12 @@ outline-style:auto;
   border-style:solid;
   display: flex;
   height: 100px;
-  
+  width: 120px;
   }
+
+.subtext {
+  font-size: 14px;
+}
 
 
 
@@ -150,21 +150,19 @@ outline-style:auto;
   align-items: center;
   justify-content:center;;
   flex: 1 1 275px;
-  background-color: lightgray;
-  
-}
+  background-color: #e5e7eb;
+  }
 
 .quote-body {
 display: flex;
 flex-flow:column;
-
 }
 
 .quote {
-background-color: lightgray;
+background-color: #e5e7eb;
 font-style: italic;
-font-size: 20px;
-font-weight:normal
+font-size: 36px;
+font-weight:lighter;
   }
 
 .credit {
@@ -181,7 +179,7 @@ flex: 1 1 200px;
 }
 
 .container {
-background-color:rgb(0, 144, 255);
+background-color:#3882f6;
 display:flex;
 width: 800px;
 justify-content: space-around;
@@ -194,12 +192,12 @@ outline-style: auto;
 }
 
 .container-info {
-background-color:rgb(0, 144, 255);
+background-color:#3882f6;
 color:white;
 }
 
 .container-info-two {
-  background-color:rgb(0, 144, 255);
+  background-color:#3882f6;
   
 
 }
@@ -215,19 +213,18 @@ color:white;
 }
 
 .button {
-background-color:rgb(0, 144, 255);
+background-color:#3882f6;
 align-self: center;
 color: white;
 flex: 0 1 100px;
 border-width: 2px;
-  border-color: whitesmoke;
-  border-radius:1px;
-  border-style:solid;
-
+border-color: whitesmoke;
+border-radius:1px;
+border-style:solid;
 }
 
 .fifth {
-background-color:rgb(0, 20, 40);
+background-color:#1f2937;
 display:flex;
 justify-content: center;
 align-items:center;
@@ -238,4 +235,6 @@ flex: 1 1 50px;
 color:white;
 font-size: 10px;
 }
+  
+
   
